@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>MFT.kml</name>
+	<StyleMap id="inline">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline2">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline3">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>MFT</name>
+		<styleUrl>#inline</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				84.7409686653173,27.37355960135928,0 84.96387125400835,27.2673479388595,0 85.10007709593751,27.27191408338517,0 85.62183200113705,27.10244599819993,0 86.15537033398341,26.94811965258801,0 86.25157468303664,26.8579067171846,0 86.51555484992342,26.82571269944835,0 86.55520114057775,26.68664571682695,0 86.91000298188943,26.67221838815409,0 87.01071219434853,26.7943715985758,0 87.24062968397331,26.80238346082341,0 87.49814897936135,26.73455948842004,0 87.67848580529966,26.7331870884856,0 87.8037278042749,26.68181453681336,0 87.98675034324511,26.75290045206228,0 88.54398385604908,26.88147252216811,0 89.03157043918227,26.78090559809245,0 89.20379592479227,26.74499170832116,0 89.50552453506901,26.65632565601134,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
