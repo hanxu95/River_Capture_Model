@@ -3,13 +3,12 @@ clc
 clear
 close all
 
-addpath('kml_shapefile')
 addpath('data')
+addpath('data/kml_shapefile')
 
 % read in DEM
- DEM = GRIDobj('Kosi30UTM.tif');
- DEM = resample(DEM,100);
- 
+
+load KosiDEM.mat
 
 %genearate flow direction and upstream area
 FD = FLOWobj(DEM,'preprocess','carve');
