@@ -383,11 +383,11 @@ for j = 2:length(t)-1
          
     plot(S_modify.distance,z_mod_modify(:, j), '.')
 
-    hold on
-    time = (1-j/(length(t)-1))*(tot_time/1e3);
-    txt = [num2str(time) 'ka'];
-    text(1e5,10000,txt)
-    hold off  
+    %hold on
+    %time = (1-j/(length(t)-1))*(tot_time/1e3);
+    %txt = [num2str(time) 'ka'];
+    %text(1e5,10000,txt)
+    %hold off  
     pause(0.0001)
     
     end
