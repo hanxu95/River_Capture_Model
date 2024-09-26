@@ -5,6 +5,7 @@ close all
 
 addpath('data')
 addpath('data/kml_shapefile')
+addpath('data/topotoolbox-2.4')
 
 % read in DEM
 
